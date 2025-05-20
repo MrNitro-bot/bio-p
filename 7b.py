@@ -1,3 +1,13 @@
+#Using Bio.pairwise2, perform pairwise sequence alignment of two DNA sequences. Print the 
+#alignment result and the alignment score.
+
+
+
+
+
+
+
+
 from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
