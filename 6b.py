@@ -1,4 +1,5 @@
-
+#Write a script that uses Entrez to fetch a nucleotide sequence from the NCBI database by using a 
+#known accession number, and print out the sequence and the related metadata.
 
 
 
