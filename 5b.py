@@ -1,3 +1,12 @@
+# Create a SeqRecord object for a DNA sequence and add annotations for a gene (start, end position, 
+#description). Modify the annotations and print the updated SeqRecord.
+
+
+
+
+
+
+
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
