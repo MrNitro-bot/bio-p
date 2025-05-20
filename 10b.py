@@ -1,3 +1,7 @@
+# Fetch a protein structure from the Protein Data Bank (PDB) using Bio.PDB and visualize the 3D 
+#structure of the protein. Perform basic manipulations like selecting a region or displaying specific 
+#chains.
+
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio import Entrez
