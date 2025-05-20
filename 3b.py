@@ -1,3 +1,6 @@
+#Using a SeqRecord object, write the DNA sequence along with its annotations (e.g., gene name, 
+#function) to a GenBank file format
+
 from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
