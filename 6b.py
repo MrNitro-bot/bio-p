@@ -1,10 +1,3 @@
-#Write a script that uses Entrez to fetch a nucleotide sequence from the NCBI database by using a 
-#known accession number, and print out the sequence and the related metadata.
-
-
-
-
-
 
 from Bio.Seq import Seq
 from Bio import SeqIO
@@ -18,3 +11,5 @@ print(f"id:{gen_record.id}")
 print(f"description:{gen_record.description}")
 print(f"annotations:{gen_record.annotations}")
 print(f"features:{gen_record.features}")
+Write a script that uses Entrez to fetch a nucleotide sequence from the NCBI database by using a 
+known accession number, and print out the sequence and the related metadata.
