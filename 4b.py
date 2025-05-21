@@ -1,5 +1,3 @@
-#Using a SeqRecord object, write the DNA sequence along with its annotations (e.g., gene name, 
-#function) to a GenBank file format
 
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
@@ -25,3 +23,6 @@ def convert_fasta_to_genbank(fasta_file,genbank_file):
     genbank_file="genbank_1.gb"
 
     convert_fasta_to_genbank(fasta_file,genbank_file)
+Using a SeqRecord object, write the DNA sequence along with its annotations (e.g., gene name, 
+function) to a GenBank file format
+
