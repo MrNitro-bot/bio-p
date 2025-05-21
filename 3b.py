@@ -1,5 +1,3 @@
-#Using a SeqRecord object, write the DNA sequence along with its annotations (e.g., gene name, 
-#function) to a GenBank file format
 
 from Bio.Seq import Seq
 from Bio import SeqIO
@@ -22,3 +20,5 @@ with open(output_file_path,"r") as input_file:
     record_read=SeqIO.read(input_file,"genbank")
     print("Contents of the GenBank")
     print(record_read)
+Using a SeqRecord object, write the DNA sequence along with its annotations (e.g., gene name, 
+function) to a GenBank file format
