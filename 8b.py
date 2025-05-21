@@ -1,11 +1,3 @@
-#Explain the steps to perform a multiple sequence alignment using MUSCLE in Biopython. Write 
-#a script to align three sequences of your choice and save the results to a file.
-
-
-
-
-
-
 
 import subprocess
 from Bio import AlignIO
@@ -39,3 +31,5 @@ except FileNotFoundError:
     print("Error: MUSCLE executable not found")
 except subprocess.CalledProcessError:
     print("Error: Failed running MUSCLE")
+Explain the steps to perform a multiple sequence alignment using MUSCLE in Biopython. Write 
+a script to align three sequences of your choice and save the results to a file.
