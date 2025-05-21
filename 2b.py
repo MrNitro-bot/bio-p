@@ -1,5 +1,3 @@
-# Python Script to Read Sequence Data from a FASTA File and Extract Both the Sequence and its 
-#Description (Header)
 
 from Bio import SeqIO
 def read_fasta(file_path):
@@ -10,3 +8,5 @@ def read_fasta(file_path):
 
 fasta_file="fasta_1.fasta"
 read_fasta(fasta_file)
+Python Script to Read Sequence Data from a FASTA File and Extract Both the Sequence and its 
+Description (Header)
