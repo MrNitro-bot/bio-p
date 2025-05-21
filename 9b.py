@@ -1,5 +1,3 @@
-#Using alignment data, construct a phylogenetic tree and visualize it with Bio.Phylo. Label each 
-#branch with the sequence name.
 
 from Bio import Phylo, AlignIO 
 from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor 
@@ -14,3 +12,5 @@ fig = plt.figure(figsize=(8, 5))
 ax = fig.add_subplot(1, 1, 1) 
 Phylo.draw(tree, axes=ax) 
 plt.show() 
+Using alignment data, construct a phylogenetic tree and visualize it with Bio.Phylo. Label each 
+branch with the sequence name.
